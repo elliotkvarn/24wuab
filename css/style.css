@@ -1,20 +1,124 @@
-#wrapper {
-    display:grid;
-    width:100%;
-    grid-template-rows: 100vw;
-    grid-template-columns: 100vh;
-    grid-template-areas: 
-    'hd';
-}
-
 @media screen and (max-width: 767px) {
+    #wrapper_main {
+        display:grid;
+        width:100%;
+        grid-template-rows: 8vh,minmax(84vh,auto),8vh;
+        grid-template-columns: 100vw;
+        grid-template-areas: 
+        'm_nav'
+        'm_main'
+        'nav';
+    }
     
+    #wrapper_profile {
+        display:grid;
+        width:100%;
+        grid-template-rows: 6vh,minmax(86vh,auto),8vh;
+        grid-template-columns:100vw;
+        grid-template-areas:
+        'p_nav'
+        'p_main'
+        'nav';
+    }
+
+    #wrapper_search {
+        display:grid;
+        width:100%;
+        grid-template-rows: 8vh,minmax(84vh,auto),8vh;
+        grid-template-columns:100vw;
+        grid-template-areas:
+        's_nav'
+        's_main'
+        'nav';
+    }
+    
+    #wrapper_top {
+        display:grid;
+        width:100%;
+        grid-template-rows: 8vh,minmax(84vh,auto),8vh;
+        grid-template-columns:100vw;
+        grid-template-areas:
+        't_nav'
+        't_main'
+        'nav';
+    } 
 }
 
+/* Universal */
 body {
     margin:0;
 }
 
+.layer {
+    
+}
+
+.top_entry {
+
+}
+
+.nav {
+
+}
+/* Index */
+#m_nav {
+    
+}
+
+#m_main {
+    
+}
+
+/* Search Page */
+#s_nav {
+
+}
+
+#s_main {
+
+}
+
+#browse {
+    
+}
+
+/* Top Page */
+#t_nav {
+
+}
+
+#t_main {
+
+}
+
+/* Profile Page */
+#p_nav {
+
+}
+
+#p_main {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Copy Pasted Stuff From Example */
+
+/*
 .menu{
     height: 100vh;
     position: fixed;
@@ -54,3 +158,4 @@ body {
 .fade-layer.visible{
     display: block;
 }
+*/
