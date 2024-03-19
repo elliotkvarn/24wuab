@@ -32,6 +32,7 @@
         'nav';
     }
     
+    
     #wrapper_top {
         display:grid;
         width:100%;
@@ -49,10 +50,6 @@ body {
     margin:0;
 }
 
-.layer {
-    
-}
-
 .top_entry {
 
 }
@@ -60,6 +57,25 @@ body {
 .nav {
 
 }
+
+/* Layer (text w/ posters) */
+.layer_text {
+    
+}
+
+.layer_pictures {
+
+}
+
+.poster {
+
+}
+
+.arrow_hover:hover {
+
+}
+
+
 /* Index */
 #m_nav {
     
