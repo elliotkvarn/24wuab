@@ -1,4 +1,4 @@
-document.querySelector(".fade-layer").addEventListener("click",showMenu);
+/* document.querySelector(".fade-layer").addEventListener("click",showMenu);
 
 document.querySelector(".menu-button").addEventListener("click",showMenu)
 

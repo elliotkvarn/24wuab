@@ -2,7 +2,8 @@
     #wrapper_main {
         display:grid;
         width:100vw;
-        grid-template-rows: 12vh,76vh,12vh;
+        height:100vh;
+        grid-template-rows: 6vh,86vh,8vh;
         grid-template-columns: 100vw;
         grid-template-areas: 
         'm_nav'
@@ -58,6 +59,7 @@ body {
     display:flex;
     justify-content: space-around;
     grid-area: nav;
+    background-color: aquamarine;
 }
 
 .icon {
@@ -78,8 +80,8 @@ body {
 }
 
 .poster {
-    width: 20vw;
-    height: 30vw;
+    width: 10vh;
+    height: 15vh;
 }
 
 .arrow_hover:hover {
@@ -89,8 +91,8 @@ body {
 
 /* Index */
 .logo {
-    width:10vw;
-    height:10vw;
+    width:5vh;
+    height:5vh;
 }
 
 #m_nav {
@@ -98,11 +100,13 @@ body {
     gap:20px;
     margin:5px;
     grid-area: m_nav;
+    background-color: blue;
 }
 
 #m_main {
     margin:5px;
     grid-area: m_main;
+    background-color: blueviolet;
 }
 
 /* Search Page */
